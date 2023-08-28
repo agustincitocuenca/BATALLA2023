@@ -35,4 +35,3 @@ public MilitaryAsset() {
         target.damage(1);
     }
 }
-

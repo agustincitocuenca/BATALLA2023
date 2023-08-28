@@ -1,7 +1,7 @@
 package battle2023.ucp;
 
 public class Tank extends MilitaryAsset {
-
+    
     Soldier pilot = new Soldier();
 
     public boolean hasPilot(){
@@ -15,7 +15,7 @@ public class Tank extends MilitaryAsset {
 
     @Override
     public void damage(int value){
-        setHealth(getHealth()-(value/2);
+        setHealth(getHealth()-(value/2));
     }
 
 }
